@@ -11,7 +11,8 @@ const sum = function (arrayOfNums) {
 
 };
 
-const multiply = function () {
+const multiply = function (arrayOfNums) {
+  return arrayOfNums.reduce((sum, num) => sum * num, 1);
 
 };
 
